@@ -19,26 +19,25 @@ Inputting text and image with suitable margins. Adding a sidebar. A uniform aest
 
 ○ Directory structure.
 
-your-repo-folder (could've named it shreya but didn't)
+your-repo-folder
 |
-|
-| _ public
-    | _ assets
-        |_ images
-            |_b1
-            |_b2
-            |_b3
-            |_pic
-            |_s1
-            |_s2
-            |_s3
-            |_s4
-        |_ Shreya_Seshadri_Resume
-    | _ css
-        |_ styles
-    | _ scripts
-        |_ tbr.js
-| _ education
-| _ index
-| _ README
-| _ tbr
+|-- public
+| |-- assets
+| | |-- images
+| | | |-- b1
+| | | |-- b2
+| | | |-- b3
+| | | |-- pic
+| | | |-- s1
+| | | |-- s2
+| | | |-- s3
+| | | |-- s4
+| |-- Shreya_Seshadri_Resume
+| |-- css
+| | |-- styles
+| |-- scripts
+| | |-- tbr.js
+|-- education
+|-- index
+|-- README
+|-- tbr
