@@ -1,0 +1,70 @@
+
+body {
+  margin: 60px 15vw 40px 15vw; /* trbl */
+  font-family: 'Merriweather', 'Cormorant Garamond'; /*so the second font is backup*/
+  background-color: #ffe6ea;
+  color: #000000; 
+}
+
+.h-pink {
+  color: #691057;
+}
+
+.sidebar {
+  position: fixed; /* so scrolling doesn't affect visibility */
+  top: 60px;
+  left: 30px;
+  display: flex; /*to make the pages appear below each other, basically arrange them easily*/
+  flex-direction: column;
+  gap: 15px; /*bw each row in the column*/
+}
+
+.sidebar a {
+  text-decoration: none; /*did not want the underline*/
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase; /*also for aesthetics*/
+  font-family: 'Merriweather', 'Cormorant Garamond';
+}
+
+.container {
+  margin-left: 150px; /* so any content will start away from sidebar */
+}
+
+.profile {
+  max-width: 30%; /*takes only 30% max of a containers width*/
+  height: 20%;
+  border-radius: 5px; /*edge rounding*/
+  margin: 20px 0;
+}
+
+.book {
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: #edb1df; 
+  border-left: 5px solid #691057;
+  border-radius: 8px;
+}
+
+.book img {
+  max-width: 200px;
+  height: auto; /*this helps maintain how we see the pic*/
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+
+
+.bored-btn {
+  padding: 10px 20px;
+  background-color: #edb1df;
+  color: black;
+  font-family: 'Merriweather';
+  border-radius: 10px;
+  cursor: pointer; /*!!!*/
+  transition: background-color 0.3s;
+}
+
+.bored-btn:hover {
+  background-color: #691057;
+}
